@@ -311,10 +311,6 @@ h6 {
   position: relative;
 }
 
-._spoller-init .spollers__title {
-  cursor: pointer;
-}
-
 ._spoller-init .spollers__title::before,
 ._spoller-init .spollers__title::after {
   content: "";
@@ -332,27 +328,27 @@ h6 {
 }
 
 ._spoller-init .spollers__title::before {
-  -webkit-transform: translate(-75%, 0) rotate(40deg);
-      -ms-transform: translate(-75%, 0) rotate(40deg);
-          transform: translate(-75%, 0) rotate(40deg);
+  -webkit-transform: translate(-85%, 0) rotate(40deg);
+      -ms-transform: translate(-85%, 0) rotate(40deg);
+          transform: translate(-85%, 0) rotate(40deg);
 }
 
 ._spoller-init .spollers__title::after {
-  -webkit-transform: translate(0) rotate(-40deg);
-      -ms-transform: translate(0) rotate(-40deg);
-          transform: translate(0) rotate(-40deg);
+  -webkit-transform: translate(-10%, 0) rotate(-40deg);
+      -ms-transform: translate(-10%, 0) rotate(-40deg);
+          transform: translate(-10%, 0) rotate(-40deg);
 }
 
 ._spoller-init .spollers__title._spoller-active::before {
-  -webkit-transform: translateX(-75%) rotate(-40deg);
-      -ms-transform: translateX(-75%) rotate(-40deg);
-          transform: translateX(-75%) rotate(-40deg);
+  -webkit-transform: translate(-85%, 0) rotate(-40deg);
+      -ms-transform: translate(-85%, 0) rotate(-40deg);
+          transform: translate(-85%, 0) rotate(-40deg);
 }
 
 ._spoller-init .spollers__title._spoller-active::after {
-  -webkit-transform: rotate(40deg);
-      -ms-transform: rotate(40deg);
-          transform: rotate(40deg);
+  -webkit-transform: translate(-10%, 0) rotate(40deg);
+      -ms-transform: translate(-10%, 0) rotate(40deg);
+          transform: translate(-10%, 0) rotate(40deg);
 }
 
 .spollers__title:not(:last-child) {
