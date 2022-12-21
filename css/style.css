@@ -320,7 +320,7 @@ h6 {
   content: "";
   position: absolute;
   left: 50%;
-  bottom: -8px;
+  bottom: -15px;
   background-color: #000;
   height: 1px;
   width: 10px;
@@ -357,6 +357,10 @@ h6 {
 
 .spollers__title:not(:last-child) {
   margin-bottom: 2.9375rem;
+}
+
+.body-spollers {
+  padding-top: 0.9375rem;
 }
 
 .body-spollers__item:not(:last-child) {
@@ -1699,6 +1703,10 @@ h6 {
 
   .getstarted__top::before {
     width: 30%;
+  }
+
+  .getstarted__image-ibg {
+    padding-bottom: 60%;
   }
 
   .team__top::before {
