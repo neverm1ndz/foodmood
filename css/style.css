@@ -1544,13 +1544,16 @@ h6 {
 
   .icon-menu::before {
     top: 0;
+    width: 75%;
   }
 
   .icon-menu::after {
     bottom: 0;
+    width: 50%;
   }
 
   .icon-menu span {
+    background-color: #FFCC00;
     top: calc(50% - 0.0625rem);
   }
 
@@ -1559,6 +1562,7 @@ h6 {
   }
 
   .menu-open .icon-menu::before {
+    width: 100%;
     top: calc(50% - 0.0625rem);
     -webkit-transform: rotate(-45deg);
         -ms-transform: rotate(-45deg);
@@ -1566,6 +1570,7 @@ h6 {
   }
 
   .menu-open .icon-menu::after {
+    width: 100%;
     bottom: calc(50% - 0.0625rem);
     -webkit-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
